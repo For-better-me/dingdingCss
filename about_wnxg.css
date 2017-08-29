@@ -1,0 +1,39 @@
+body,html{
+	background: #fff;
+}
+.about_logo div{
+	width: 1.88rem;
+	height: 1.88rem;
+	margin: .96rem auto .3rem;
+	
+}
+.about_logo p{
+	font-size: .3rem;
+	text-align: center;
+}
+.abstract{
+	line-height: .44rem;
+    font-size: .24rem;
+    color: #929292;
+    padding: 0 .3rem;
+    text-indent: 2em;
+    margin-top: .4rem;
+}
+.contact{
+	position: absolute;
+    bottom: .75rem;
+    left: .57rem;
+}
+.contact p{
+	line-height: .4rem;
+	margin-bottom: .24rem;
+}
+.contact p img{
+	display: inline-block;
+	width: .4rem;
+	float: left;
+	margin-right: .2rem;
+}
+.contact p span{
+	line-height: .4rem;
+}

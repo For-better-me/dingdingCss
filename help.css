@@ -1,0 +1,75 @@
+.my_ul1,.my_ul2{
+	background: #fff;
+	margin-bottom: .2rem;
+	position: relative;
+    border:none;
+}
+.my_ul1 li,.my_ul2 li{
+	height: .9rem;
+}
+.my_ul1 li p,.my_ul2 li p{
+	margin-left: .3rem;
+	line-height: .9rem;
+	padding-left: .1rem;
+	font-size: .28rem;
+	background: url(/images/btn_jinru.png) no-repeat 95% center;
+	background-size: 2.5%;
+	color: #222;
+}
+.my_ul1 a:first-child p,.my_ul2 a:first-child p{
+	position: relative;
+}
+
+.my_ul1 a:first-child p:after,.my_ul2 a:first-child p:after{
+		content: "";
+	    position: absolute;
+	    bottom: 0;
+	    left: 0;
+	    width: 100%;
+	    border-top: 1px solid #e0e0e0;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5) {
+    .my_ul1 a:first-child p:after,.my_ul2 a:first-child p:after{
+		transform: scaleY(0.7)
+    }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) {
+    .my_ul1 a:first-child p:after,.my_ul2 a:first-child p:after{
+		transform: scaleY(0.5)
+    }
+}
+
+
+
+
+
+
+.my_ul1:after, .my_ul2:after{
+	content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #e0e0e0;
+}
+.my_ul1:before, .my_ul2:before{
+	content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #e0e0e0;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5) {
+    .my_ul1:before, .my_ul2:before,.my_ul1:after, .my_ul2:after{
+		transform: scaleY(0.7)
+    }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) {
+    .my_ul1:before, .my_ul2:before,.my_ul1:after, .my_ul2:after{
+		transform: scaleY(0.5)
+    }
+}
+

@@ -1,0 +1,104 @@
+.webuploader-container {
+	position: relative;
+}
+.webuploader-element-invisible {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px,1px,1px,1px);
+}
+.webuploader-pick {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	background: url(/images/tianjia.png) no-repeat left center;
+	background-size: 100%;
+	width: 2rem;
+    height: 2rem;
+	color: #fff;
+	text-align: center;
+	border-radius: 3px;
+	overflow: hidden;
+}
+.webuploader-pick-hover {
+	/*background: #00a2d4;*/
+}
+
+.webuploader-pick-disable {
+	opacity: 0.6;
+	pointer-events:none;
+}
+
+/* 修改的样式在这里*/
+#uploader{
+	overflow: hidden;
+    background: #fff;
+    margin-top: .2rem;
+    padding-bottom: .2rem;
+    margin-bottom: 1.08rem;
+}
+#filePicker{
+	margin: .3rem;
+	width: 2rem;
+}
+#filePicker div:nth-child(2){
+	width: 100% !important;
+	height: 100% !important;
+}
+.shanchu{
+	width: .4rem;
+	height: .4rem;
+	background: red;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.filelist{
+	padding: .3rem;
+	overflow: hidden;
+}
+.filelist li{
+	width: 2rem;
+	height: 2rem;
+	float: left;
+	margin-right: .3rem;
+	position: relative;
+	overflow: hidden;
+}
+.filelist li:last-child{
+	margin-right: 0;
+}
+.filelist li p.title{
+	position: absolute;
+	z-index: -1;
+}
+.file-panel{
+	position: absolute;
+    top: 0;
+    right: 0;
+}
+#filePicker2 {
+	width: 2rem;
+	height: 2rem;
+}
+#filePicker2 .webuploader-pick{
+	width: 100%;
+    height: 100%;
+	background: url(/images/tianjia.png) no-repeat center;
+	background-size: 99% 100%;
+}
+.statusBar{
+	position: absolute;
+	width: 2rem;
+	height: 2rem;
+	/*clip: rect(1px,1px,1px,1px);*/
+	display: none;
+}
+.queueList {
+	position: relative;
+}
+.cancel{
+	width: .4rem;
+	height: .4rem;
+	background: url(/images/guanbi_shanchu.png) no-repeat center;
+	background-size: 100%;
+}

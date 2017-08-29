@@ -1,0 +1,117 @@
+/*我的信息*/
+.my_box{
+	height: 2.5rem;
+	background: url(/images/headbg.png) no-repeat left top;
+	background-size: 100%;
+	margin-bottom: .2rem;
+	overflow: hidden;
+}
+.my_head{
+	width: 1.42rem;
+	height: 1.42rem;
+	margin: .48rem auto .29rem;
+	background: rgba(255,255,255,.3);
+	border-radius: 100%;
+	overflow: hidden;
+}
+.my_head .my_headimg {
+	width: 1.24rem;
+	height: 1.24rem;
+	margin: .09rem auto;
+	background: #fff;
+	border-radius: 100%;
+	overflow: hidden;
+}
+
+.my_name_tel{
+	text-align: center;
+}
+.my_name_tel span,.my_name_tel i{
+	font-size: .26rem;
+	margin-right: .22rem;
+	color: #fff;
+}
+/*我的订单等*/
+.my_ul1,.my_ul2{
+	background: #fff;
+	margin-bottom: .2rem;
+	position: relative;
+	border: none;
+}
+.my_ul1:after, .my_ul2:after{
+	content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #e0e0e0;
+}
+.my_ul1:before, .my_ul2:before{
+	content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #e0e0e0;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5) {
+    .my_ul1:before, .my_ul2:before,.my_ul1:after, .my_ul2:after{
+		transform: scaleY(0.7)
+    }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) {
+    .my_ul1:before, .my_ul2:before,.my_ul1:after, .my_ul2:after{
+		transform: scaleY(0.5)
+    }
+}
+.my_ul1 li,.my_ul2 li{
+	height: .9rem;
+}
+.my_ul1 li p,.my_ul2 li p{
+	margin-left: .92rem;
+	line-height: .9rem;
+	padding-left: .1rem;
+	font-size: .28rem;
+	background: url(/images/btn_jinru.png) no-repeat 95% center;
+	background-size: 2.5%;
+}
+.my_ul1 a:nth-of-type(2) li p,.my_ul2 a:nth-of-type(2) li p{
+	position: relative;
+}
+.my_ul1 a:nth-of-type(2) li p:after,.my_ul2 a:nth-of-type(2) li p:after{
+		content: "";
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    border-top: 1px solid #e0e0e0;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5) {
+    .my_ul1 a:nth-of-type(2) li p:after,.my_ul2 a:nth-of-type(2) li p:after{
+		transform: scaleY(0.7)
+    }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) {
+    .my_ul1 a:nth-of-type(2) li p:after,.my_ul2 a:nth-of-type(2) li p:after{
+		transform: scaleY(0.5)
+    }
+}
+.my_ul1 a:first-child li{
+	background: url(/images/icon_wodedingdan.png) no-repeat .32rem center;
+	background-size: 5%;
+}
+.my_ul1 a:last-child li{
+	background: url(/images/icon_wodeqiyedun.png) no-repeat .3rem center;
+	background-size: 5%;
+}
+.my_ul2 a:first-child li{
+	background: url(/images/icon_fapiao.png) no-repeat .3rem center;
+	background-size: 6%;
+}
+.my_ul2 a:last-child li{
+	background: url(/images/icon_bangzhuzhongxin.png) no-repeat .3rem center;
+	background-size: 5%;
+}
+

@@ -1,0 +1,98 @@
+/*小哥信息*/
+.xg_details,.order_after {
+	background: #fff;
+	padding: .3rem;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: .2rem;
+}
+.xg_details .xg_head{
+	width: 1.24rem;
+	height: 1.24rem;
+	float: left;
+	overflow: hidden;
+}
+.xg_details .xg_doc{
+	float: left;
+	margin-left: .3rem;
+}
+.xg_doc p{
+	color: #929292;
+}
+.xg_doc .xg_name{
+	font-size: .32rem !important;
+	color: #222;
+}
+.xg_details .xg_tel{
+	width: .72rem;
+	height: .72rem;
+	border-radius: 100%;
+	position: absolute;
+	top: .3rem;
+	right: .3rem;
+	background: url(/images/xg2.png) no-repeat center;
+	background-size: 100%;
+	
+}
+/*订单跟踪*/
+
+.order_after p{
+	font-size: .28rem;
+}
+.order_after ul li{
+	background: url(/images/aa.png) no-repeat 2.2rem bottom;
+    background-size: 4% 90%;
+	height: .64rem;
+	overflow: hidden;
+	line-height: 1rem;
+}
+.order_after ul li span{
+	float: left;
+	color: #929292;
+}
+.order_after ul li i{
+	float: right;
+	font-size: .26rem;
+}
+.order_after ul li:first-child{
+	background: url(/images/bb.png) no-repeat 2.2rem bottom;
+	background-size: 4% 44%;
+}
+/*订单详情*/
+.order_detail {
+	background: #fff;
+	overflow: hidden;
+	margin-bottom: 1rem;
+}
+.order_detail p{
+	font-size: .32rem;
+	padding: 0 .3rem;
+	line-height: .9rem;
+}
+.order_detail ul li{
+	border-bottom: 1px solid #E0E0E0;
+	padding: 0 .3rem;
+	overflow: hidden;
+	line-height: .9rem;
+}
+.order_detail ul li i{
+	display: inline-block;
+	float: left;
+	font-size: .28rem;
+}
+.order_detail ul li span{
+	width: 3.76rem;
+	float: right;
+	text-align: right;
+	line-height: .4rem;
+    margin: .25rem 0;
+    color: #929292;
+    font-size: .26rem;
+}
+.order_detail ul li input{
+	width: 100%;
+	text-align: center;
+	color: #ff943e;
+	font-size: .28rem;
+	background: none;
+}

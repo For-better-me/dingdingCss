@@ -1,0 +1,165 @@
+.evaluate{
+    width:100%;
+    height:1.38rem;
+    background-color:#fff;
+    border-bottom:.02rem solid #f0f0f0;
+}
+.evaluate div{
+    height:1.38rem;
+    float:left;
+}
+.total_evaluate{
+    width:1.48rem;
+    margin-left:.3rem;
+    font-size:.3rem;
+    line-height:1.38rem;
+}
+.stars{
+    margin-left:.25rem;
+    position:relative;
+    width:3.88rem;
+}
+.stars img{
+    width:.6rem;
+    height: .6rem;
+    line-height:1.38rem;
+    vertical-align: middle;
+    position:absolute;
+    top:.39rem;
+}
+#star_1{
+    left:0;
+}
+#star_2{
+    left:.82rem;
+}
+#star_3{
+     left:1.64rem;
+}
+#star_4{
+      left:2.46rem;
+}
+#star_5{
+       left:3.28rem;
+}
+#eva{
+    font-size:.26rem;
+    color:#929292;
+    line-height:1.38rem;
+    margin-left:.25rem;
+    position:relative;
+}
+table{
+    width:100%;
+    /*height:3.3rem;*/
+    height:0;
+    background-color:#fff;
+    font-size:.26rem;
+    display:none;
+}
+table.show{
+    animation:show 1s;
+    display:block;
+    height:3.3rem;
+}
+@keyframes show {
+    from{
+        height:0;
+    }
+    to{
+        height:3.3rem;
+    }
+}
+
+tbody:before{
+    content:"";
+    display:table;
+}
+tbody:after{
+    content:"";
+    display:table;
+}
+table tr{
+    width:100%;
+    height:1.05rem;
+}
+table tr:last-child{
+    margin-bottom:.01rem;
+}
+table tr td:first-child{
+    padding-left:.3rem;
+    color:#444;
+    width:1.78rem;
+    line-height:1.05rem;
+}
+.xiaolian{
+    width:3.8rem;
+    height: .5rem;
+
+}
+.xiaolian img{
+    margin-right:.16rem;
+    width:.52rem;
+}
+table tr td:last-child{
+    padding-left:.25rem;
+    line-height:1.05rem;
+    color:#929292;
+}
+#sharp{
+    position:absolute;
+    top:1.3rem;
+    left:1rem;
+    border-left:.03rem solid #f0f0f0;
+    border-top:.03rem solid #f0f0f0;
+    background-color:#fff;
+    width:.15rem;
+    height:.15rem;
+    transform: rotate(45deg);
+    display:none;
+}
+.textarea {
+	position: relative;
+	width: 100%;
+}
+.textarea textarea{
+    width:100%;
+    height:2.8rem;
+    padding:.3rem;
+    font-size:.26rem;
+    overflow: hidden;
+    resize: none;
+    border:none;
+    outline: none;
+    margin-top:.2rem;
+    box-sizing: border-box;
+}
+#last{
+    width: 100%;
+    height: 1.18rem;
+    color: #929292;
+    font-size: .3rem;
+    line-height: 1rem;
+    background-color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    line-height: 1.18rem;
+}
+#last input{
+    background: #ff943e;
+    color: #fff;
+    width: 5.92rem;
+    height: .88rem;
+    line-height: .88rem;
+    border-radius: .1rem;
+    font-size: .3rem;
+    text-align: center;
+}
+
+.gptu{
+	position: absolute;
+    bottom: .1rem;
+    right: .3rem;
+    color: #929292;
+}

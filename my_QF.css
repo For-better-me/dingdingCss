@@ -1,0 +1,233 @@
+.my_box {
+	padding: .32rem .3rem .35rem;
+	background: #fff;
+	overflow: hidden;
+}
+
+.my_left {
+	float: left;
+	width: 1.9rem;
+	height: 1.9rem;
+	overflow: hidden;
+}
+
+.my_left img {
+	width: 100%;
+}
+
+.my_right {
+	float: right;
+	width: 4.7rem;
+}
+
+.my_right p {
+	margin-top: .1rem;
+}
+
+.my_right p:nth-child(1) {
+	margin-top: 0;
+	font-size: .28rem;
+}
+
+.my_right p span:first-child {
+	color: #666;
+}
+
+.my_right p span:last-child {
+	color: #929292;
+}
+
+.my_right p:last-child span:last-child {
+	font-size: .28rem;
+	color: #ff943e;
+}
+
+.message {
+	margin-top: .2rem;
+	background: #fff;
+	overflow: hidden;
+	padding: 0 .3rem .27rem;
+	position: relative;
+}
+
+.message p {
+	margin-top: .24rem;
+	line-height: .3rem;
+}
+.message p:nth-of-type(2){
+	font-size: 0.2rem;
+}
+.message p:first-child {
+	font-size: .28rem;
+	margin-top: .24rem;
+	margin-bottom: .04rem;
+}
+
+.message p span:first-child {
+	float: left;
+	font-size: .26rem;
+}
+
+.message p span:last-child {
+	color: #929292;
+}
+
+.message p:last-child span:last-child {
+	min-width: 10%;
+	max-width: 76%;
+	float: left;
+}
+
+.message p .msg_addr {
+	line-height: .32rem;
+}
+.message .msg_img{
+	width: 1.34rem;
+	height: 1.34rem;
+	position: absolute;
+	top: 1rem;
+    right: -.36rem;
+}
+.message .msg_edit{
+	position: absolute;
+	top: 0;
+	right: .3rem;
+}
+.record {
+	margin-top: .2rem;
+}
+
+.record .record_title {
+	font-size: .3rem;
+	padding: .24rem .3rem .19rem;
+	border-bottom: 1px solid #e2e2e2;
+	background: #fff;
+}
+
+.record .record_ul {
+	/*padding: 0 .3rem;*/
+}
+
+.record .record_order {
+	line-height: .55rem;
+}
+
+.record_order span {
+	font-size: .22rem;
+}
+
+.record .record_order span:last-child {
+	color: #ff943e;
+	font-size: .24rem;
+	float: right;
+}
+
+.record .recordbox {
+	border-top: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+	padding: .23rem 0 .29rem;
+	overflow: hidden;
+}
+
+.recordbox .record_left {
+	width: 1.9rem;
+	height: 1.9rem;
+	float: left;
+	margin-right: .42rem;
+	overflow: hidden;
+}
+
+.recordbox .record_left img {
+	width: 100%;
+}
+
+.recordbox .record_right p {
+	margin-bottom: .18rem;
+}
+
+.recordbox .record_right p span:first-child {
+	color: #666;
+}
+
+.recordbox .record_right p span:last-child,
+.recordbox .record_right p span:nth-child(2) {
+	color: #999;
+	font-size: .26rem;
+}
+
+
+.record_ul li {
+	border-bottom: 1px solid #E2E2E2;
+	padding: 0 .3rem;
+	margin-bottom: .2rem;
+	background: #fff;
+}
+.record_btn {
+	text-align: right;
+}
+.record_btn input {
+	margin: .15rem 0 .15rem .2rem;
+    border: 1px solid #666;
+    border-radius: .08rem;
+    padding: 0 .1rem;
+    background: none;
+    line-height: .56rem;
+    width: 1.5rem;
+}
+.record_btn input.notescontact_kf{
+	color: #64B968;
+	border-color: #64B968;
+}
+.record_btn input.evaluate_xg{
+	color: #ff943e;
+	border-color:#ff943e ;
+}
+section {
+	margin-bottom: 1.18rem;
+}
+
+footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 1.18rem;
+	background: #fff;
+}
+
+footer input {
+	width: 5.92rem;
+	color: #fff;
+	font-size: .26rem;
+	line-height: .88rem;
+	border-radius: .08rem;
+	margin:0 auto;
+	display: block;
+	margin-top: .145rem;
+	background: #ff943e;
+
+}
+
+
+.no_datebox {
+	background: #fff;
+	overflow: hidden;
+}
+
+.no_datebox div {
+	width: 2.01rem;
+	height: 2.01rem;
+	margin: 1rem auto .55rem;
+	overflow: hidden;
+}
+
+.no_datebox div img {
+	width: 100%;
+}
+
+.no_datebox p {
+	text-align: center;
+	font-size: .3rem;
+	color: #666;
+	margin-bottom: .5rem;
+}

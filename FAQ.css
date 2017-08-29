@@ -1,0 +1,22 @@
+body,html{
+	background: #fff;
+}
+.faq{
+	padding: 0 .3rem;
+}
+.faq p{
+	color: #666;
+	font-size: .24rem;
+	line-height: .48rem;
+}
+.faq .title_Q{
+	color: #ff943e;
+	font-size: .28rem;
+	margin-top: .4rem;
+	padding-left: .6rem;
+	background: url(/images/help_1.png) no-repeat left center;
+	background-size: 7%;
+}
+.faq .title_Q:first-child{
+	margin-top: .3rem;
+}
