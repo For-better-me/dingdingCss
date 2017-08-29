@@ -83,22 +83,59 @@
 	line-height: .4rem;
 	text-indent: .32rem;
 	/*box-sizing: border-box;*/
-	border-bottom: 1px solid #E0E0E0;
+	/*border-bottom: 1px solid #E0E0E0;*/
 	width: 100%;
 	height: 0.4rem;
+	position: relative;
+}
+.city-list .city-letter:after{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	border-top: 1px solid #e0e0e0;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5) {
+    .city-list .city-letter:after{
+        transform: scaleY(0.7)
+    }
 }
 
+@media (-webkit-min-device-pixel-ratio: 2) {
+    .city-list .city-letter:after{
+        transform: scaleY(0.5)
+    }
+}
 .city-list p {
 	font-size: .28rem;
 	color: #222;
 	height: .88rem;
 	line-height: .88rem;
-	border-bottom: 1px solid #E0E0E0;
 	cursor: pointer;
 	background: #fff;
 	padding: 0 .3rem;
+	position: relative;
+}
+.city-list p:after{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	border-top: 1px solid #e0e0e0;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5) {
+    .city-list p:after{
+        transform: scaleY(0.7)
+    }
 }
 
+@media (-webkit-min-device-pixel-ratio: 2) {
+    .city-list p:after{
+        transform: scaleY(0.5)
+    }
+}
 .city-wrap-tit{
 	height: 0.8rem;
 	line-height: 0.8rem;
@@ -110,7 +147,6 @@
 }
 .city-wrap-tit .back{
 	position: absolute;
-	left: 0;
 	right: 0;
 	width: 0.82rem;
 	height: 0.8rem;

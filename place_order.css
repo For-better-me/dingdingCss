@@ -338,9 +338,7 @@
 	overflow-y: auto;
 	display: none;
 }
-.fright li:nth-of-type(1){
-    display: block;
-}
+
 .fright li span{
 	width: 100%;
 	line-height: .9rem;
@@ -390,7 +388,33 @@
     font-weight: bold;
     line-height: .88rem;
 }
+.close_agree_wrap{
+    position: fixed;
+    bottom: 0rem;
+    background: #fff;
+    z-index: 999;
+    border-top: #e0e0e0 solid 1px;
+    width: 100%;
+}
+.close_agree_wrap:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #e0e0e0;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5) {
+    .close_agree_wrap:after{
+        transform: scaleY(0.7)
+    }
+}
 
+@media (-webkit-min-device-pixel-ratio: 2) {
+    .close_agree_wrap:after{
+        transform: scaleY(0.5)
+    }
+}
 .xieyi .close_agree {
     display: block;
     position: fixed;
