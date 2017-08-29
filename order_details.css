@@ -5,6 +5,50 @@
 	overflow: hidden;
 	position: relative;
 	margin-bottom: .2rem;
+    border: none;
+}
+.xg_details:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #e0e0e0;
+}
+.xg_details:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #e0e0e0;
+}
+.order_after:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #e0e0e0;
+}
+.order_after:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #e0e0e0;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5) {
+    .xg_details:after,.order_after:after,.order_after:before,.xg_details:before{
+        transform: scaleY(0.7)
+    }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) {
+    .xg_details:after,.order_after:after,.order_after:before,.xg_details:before{
+        transform: scaleY(0.5)
+    }
 }
 .xg_details .xg_head{
 	width: 1.24rem;
@@ -18,6 +62,7 @@
 }
 .xg_doc p{
 	color: #929292;
+    line-height: 0.4rem;
 }
 .xg_doc .xg_name{
 	font-size: .32rem !important;
@@ -30,7 +75,7 @@
 	position: absolute;
 	top: .3rem;
 	right: .3rem;
-	background: url(/images/xg2.png) no-repeat center;
+	background: url(../img/xg2.png) no-repeat center;
 	background-size: 100%;
 	
 }
@@ -40,40 +85,91 @@
 	font-size: .28rem;
 }
 .order_after ul li{
-	background: url(/images/aa.png) no-repeat 2.2rem bottom;
-    background-size: 4% 90%;
-	height: .64rem;
+	background: url(../img/aa.png) no-repeat left bottom;
+    background-size: 4.5%;
+	height: .7rem;
 	overflow: hidden;
 	line-height: 1rem;
+	padding-left: .5rem;
+    background-position-y:-0.04rem !important;
 }
 .order_after ul li span{
-	float: left;
+	float: right;
 	color: #929292;
 }
 .order_after ul li i{
-	float: right;
+	float: left;
 	font-size: .26rem;
 }
 .order_after ul li:first-child{
-	background: url(/images/bb.png) no-repeat 2.2rem bottom;
-	background-size: 4% 44%;
+	background: url(../img/bb.png) no-repeat left bottom;
+	background-size: 4.5%;
+    background-position-y:0.33rem !important;
 }
 /*订单详情*/
 .order_detail {
 	background: #fff;
 	overflow: hidden;
-	margin-bottom: 1rem;
+	/*margin-bottom: 1rem;*/
 }
-.order_detail p{
+.order_detail>p{
 	font-size: .32rem;
 	padding: 0 .3rem;
 	line-height: .9rem;
+    border:none;
+    position: relative;
+}
+.order_detail>p:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #e0e0e0;
+}
+.order_detail>p:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #e0e0e0;
+    
+}
+@media (-webkit-min-device-pixel-ratio: 2) {
+    .order_detail>p:before,.order_detail>p:after{
+        transform: scaleY(0.5)
+    }
+}
+@media (-webkit-min-device-pixel-ratio: 1.5) {
+    .order_detail>p:before,.order_detail>p:after{
+        transform: scaleY(0.7)
+    }
 }
 .order_detail ul li{
-	border-bottom: 1px solid #E0E0E0;
+	/*border-bottom: 1px solid #E0E0E0;*/
 	padding: 0 .3rem;
 	overflow: hidden;
 	line-height: .9rem;
+    position: relative;
+}
+.order_detail ul li:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #e0e0e0;
+}
+@media (-webkit-min-device-pixel-ratio: 2) {
+    .order_detail ul li:after{
+        transform: scaleY(0.5)
+    }
+}
+@media (-webkit-min-device-pixel-ratio: 1.5) {
+    .order_detail ul li:after{
+        transform: scaleY(0.7)
+    }
 }
 .order_detail ul li i{
 	display: inline-block;
@@ -93,6 +189,132 @@
 	width: 100%;
 	text-align: center;
 	color: #ff943e;
-	font-size: .28rem;
+	font-size: .32rem;
 	background: none;
+}
+/*三联协议*/
+.sanlian{
+	background: #fff;
+	height: 100%;
+	display: none;
+}
+.sanlian .top,.logo{
+	text-align: center;
+}
+.sanlian .top{
+	padding-top: .3rem;
+}
+.sanlian .top img {
+	width: 1.5rem;
+	height: 1.5rem;
+	position: relative;
+    top: .1rem;
+}
+.sanlian .top span {
+	font-size: .6rem;
+	font-weight: bold;
+	color: #eb582e;
+}
+.sanlian .text{
+	margin: 0 auto;
+	color: #fff;
+    background-color: #eb582e;
+    font-size: .34rem;
+    padding: .04rem .2rem;
+}
+.sanlian>p {
+    margin-top: .32rem;
+    text-align: center;
+    font-size: .32rem;
+    font-weight: bold;
+}
+.sanlian .confirm_order {
+    border: 1px solid #333;
+    margin: .3rem;
+}
+.sanlian .confirm_order div{
+	border-bottom: 1px solid #333;
+	line-height: .6rem;
+    padding: 0 .3rem;
+}
+.sanlian .confirm_order .last_row{
+	border: 0;
+	
+}
+.sanlian .first_row .name{
+	margin-right: .5rem;
+}
+.sanlian .detail {
+	border: 1px solid #333;
+    margin: .3rem;
+}
+.sanlian .detail .detail_title{
+	border-bottom: 1px solid #333;
+	line-height: .6rem;
+    padding: 0 .3rem;
+	text-align: center;
+    font-size: .3rem;
+}
+.sanlian .detail .detail_text{
+	height: 1.5rem;
+	border-bottom: 1px solid #333;
+	padding: .1rem .3rem;
+}
+.sanlian .detail .confirm{
+	padding: 0 .3rem;
+    line-height: .6rem;
+}
+.sanlian .detail .confirm span{
+	font-size: .3rem;
+}
+.sanlian .deal h3{
+	text-align: center;
+    font-size: .36rem;
+    font-weight: bold;
+    margin-bottom: .2rem;
+}
+.sanlian .deal p{
+	padding: 0 .3rem;
+    margin-bottom: .2rem;
+    line-height: .36rem;
+    font-size: .24rem;
+}
+.sanlian .client{
+	position: relative;
+}
+.sanlian .client .trustee{
+	font-size: .4rem;
+	line-height: .6rem;
+	font-weight: bold;
+	color: #555;
+}
+.sanlian .client .client_text{
+	width: 2rem;
+	height: 2rem;
+	position: absolute;
+    right: .3rem;
+    top: 0;
+}
+.sanlian .client .the_client{
+	margin-top: 1.5rem;
+}
+.order_code{
+    width: 100%;
+    height: 0.8rem;
+    line-height: 0.8rem;
+}
+.order_code>p{
+    color: #222;
+    padding-left: 0.3rem;
+    float: left;
+    font-size: 0.26rem;
+}
+.order_code>input{
+    color: #929292;
+    float: right;
+    padding-right: 0.3rem;
+    background: transparent;
+    border:none;
+    line-height: 0.8rem;
+    font-size: 0.26rem;
 }
