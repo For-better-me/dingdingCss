@@ -55,7 +55,9 @@
 	border-bottom: .2rem solid #f7f9ff;
 	padding-bottom: 0.3rem;
 }
-
+.service_note {
+	border-bottom: 0;
+}
 .h2 {
 	font-size: .36rem;
 	text-align: center;
@@ -107,7 +109,7 @@
 	width: 5.8rem;
 	font-size: .22rem;
 	color: #666;
-	margin: 0 .23rem 0 .13rem;
+	margin: 0 .1rem 0 .13rem;
 }
 .service_note p i{
 	color: #FF943E;
@@ -278,6 +280,34 @@
     border-radius: .08rem;
     font-size: .3rem;
 }
+.qyd_foot{
+	position: fixed;
+	z-index: 9999;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: #fff;
+	border:none !important;
+}
+.qyd_foot:after{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	border-top: 1px solid #e0e0e0;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5) {
+    .qyd_foot:after{
+        transform: scaleY(0.7)
+    }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) {
+    .qyd_foot:after{
+        transform: scaleY(0.5)
+    }
+}
 body,
 html {
 	background: #fff;
@@ -301,6 +331,7 @@ a {
 	background: #fff;
 	width: 5.92rem;
 	padding: .2rem .3rem;
+	position: relative;
 }
 .refundment_box h2{
 	text-align: center;
@@ -312,4 +343,12 @@ a {
 .refundment_box p{
 	font-size: .26rem;
 	margin-bottom: .2rem;
+}
+.refundment_box i{
+	width: .3rem;
+    height: .3rem;
+    position: absolute;
+    right: .2rem;
+    top: .2rem;
+    background: url(../img/close_refundment.png) center;
 }

@@ -1,10 +1,12 @@
+
+
 /*小哥信息*/
 .xg_details,.order_after {
-	background: #fff;
-	padding: .3rem;
-	overflow: hidden;
-	position: relative;
-	margin-bottom: .2rem;
+    background: #fff;
+    padding: .3rem;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: .2rem;
     border: none;
 }
 .xg_details:after{
@@ -51,71 +53,71 @@
     }
 }
 .xg_details .xg_head{
-	width: 1.24rem;
-	height: 1.24rem;
-	float: left;
-	overflow: hidden;
+    width: 1.24rem;
+    height: 1.24rem;
+    float: left;
+    overflow: hidden;
 }
 .xg_details .xg_doc{
-	float: left;
-	margin-left: .3rem;
+    float: left;
+    margin-left: .3rem;
 }
 .xg_doc p{
-	color: #929292;
+    color: #929292;
     line-height: 0.4rem;
 }
 .xg_doc .xg_name{
-	font-size: .32rem !important;
-	color: #222;
+    font-size: .32rem !important;
+    color: #222;
 }
 .xg_details .xg_tel{
-	width: .72rem;
-	height: .72rem;
-	border-radius: 100%;
-	position: absolute;
-	top: .3rem;
-	right: .3rem;
-	background: url(../img/xg2.png) no-repeat center;
-	background-size: 100%;
-	
+    width: .72rem;
+    height: .72rem;
+    border-radius: 100%;
+    position: absolute;
+    top: .3rem;
+    right: .3rem;
+    background: url(/images/xg2.png) no-repeat center;
+    background-size: 100%;
+    
 }
 /*订单跟踪*/
 
 .order_after p{
-	font-size: .28rem;
+    font-size: .28rem;
 }
 .order_after ul li{
-	background: url(../img/aa.png) no-repeat left bottom;
+    background: url(/images/aa.png) no-repeat left bottom;
     background-size: 4.5%;
-	height: .7rem;
-	overflow: hidden;
-	line-height: 1rem;
-	padding-left: .5rem;
+    height: .7rem;
+    overflow: hidden;
+    line-height: 1rem;
+    padding-left: .5rem;
     background-position-y:-0.04rem !important;
 }
 .order_after ul li span{
-	float: right;
-	color: #929292;
+    float: right;
+    color: #929292;
 }
 .order_after ul li i{
-	float: left;
-	font-size: .26rem;
+    float: left;
+    font-size: .26rem;
 }
 .order_after ul li:first-child{
-	background: url(../img/bb.png) no-repeat left bottom;
-	background-size: 4.5%;
+    background: url(/images/bb.png) no-repeat left bottom;
+    background-size: 4.5%;
     background-position-y:0.33rem !important;
 }
 /*订单详情*/
 .order_detail {
-	background: #fff;
-	overflow: hidden;
-	/*margin-bottom: 1rem;*/
+    background: #fff;
+    overflow: hidden;
+    /*margin-bottom: 1rem;*/
 }
 .order_detail>p{
-	font-size: .32rem;
-	padding: 0 .3rem;
-	line-height: .9rem;
+    font-size: .32rem;
+    padding: 0 .3rem;
+    line-height: .9rem;
     border:none;
     position: relative;
 }
@@ -147,10 +149,10 @@
     }
 }
 .order_detail ul li{
-	/*border-bottom: 1px solid #E0E0E0;*/
-	padding: 0 .3rem;
-	overflow: hidden;
-	line-height: .9rem;
+    /*border-bottom: 1px solid #E0E0E0;*/
+    padding: 0 .3rem;
+    overflow: hidden;
+    line-height: .9rem;
     position: relative;
 }
 .order_detail ul li:after{
@@ -172,52 +174,53 @@
     }
 }
 .order_detail ul li i{
-	display: inline-block;
-	float: left;
-	font-size: .28rem;
+    display: inline-block;
+    float: left;
+    font-size: .28rem;
 }
 .order_detail ul li span{
-	width: 3.76rem;
-	float: right;
-	text-align: right;
-	line-height: .4rem;
+    width: 3.76rem;
+    float: right;
+    text-align: right;
+    line-height: .4rem;
     margin: .25rem 0;
     color: #929292;
     font-size: .26rem;
 }
 .order_detail ul li input{
-	width: 100%;
-	text-align: center;
-	color: #ff943e;
-	font-size: .32rem;
-	background: none;
+    width: 100%;
+    text-align: center;
+    color: #ff943e;
+    font-size: .32rem;
+    background: none;
+    line-height: 0.9rem;
 }
 /*三联协议*/
 .sanlian{
-	background: #fff;
-	height: 100%;
-	display: none;
+    background: #fff;
+    height: 100%;
+    display: none;
 }
 .sanlian .top,.logo{
-	text-align: center;
+    text-align: center;
 }
 .sanlian .top{
-	padding-top: .3rem;
+    padding-top: .3rem;
 }
 .sanlian .top img {
-	width: 1.5rem;
-	height: 1.5rem;
-	position: relative;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
     top: .1rem;
 }
 .sanlian .top span {
-	font-size: .6rem;
-	font-weight: bold;
-	color: #eb582e;
+    font-size: .6rem;
+    font-weight: bold;
+    color: #eb582e;
 }
 .sanlian .text{
-	margin: 0 auto;
-	color: #fff;
+    margin: 0 auto;
+    color: #fff;
     background-color: #eb582e;
     font-size: .34rem;
     padding: .04rem .2rem;
@@ -233,75 +236,76 @@
     margin: .3rem;
 }
 .sanlian .confirm_order div{
-	border-bottom: 1px solid #333;
-	line-height: .6rem;
+    border-bottom: 1px solid #333;
+    line-height: .6rem;
     padding: 0 .3rem;
 }
 .sanlian .confirm_order .last_row{
-	border: 0;
-	
+    border: 0;
+    
 }
 .sanlian .first_row .name{
-	margin-right: .5rem;
+    margin-right: .5rem;
 }
 .sanlian .detail {
-	border: 1px solid #333;
+    border: 1px solid #333;
     margin: .3rem;
 }
 .sanlian .detail .detail_title{
-	border-bottom: 1px solid #333;
-	line-height: .6rem;
+    border-bottom: 1px solid #333;
+    line-height: .6rem;
     padding: 0 .3rem;
-	text-align: center;
+    text-align: center;
     font-size: .3rem;
 }
 .sanlian .detail .detail_text{
-	height: 1.5rem;
-	border-bottom: 1px solid #333;
-	padding: .1rem .3rem;
+    height: 1.5rem;
+    border-bottom: 1px solid #333;
+    padding: .1rem .3rem;
 }
 .sanlian .detail .confirm{
-	padding: 0 .3rem;
+    padding: 0 .3rem;
     line-height: .6rem;
 }
 .sanlian .detail .confirm span{
-	font-size: .3rem;
+    font-size: .3rem;
 }
 .sanlian .deal h3{
-	text-align: center;
+    text-align: center;
     font-size: .36rem;
     font-weight: bold;
     margin-bottom: .2rem;
 }
 .sanlian .deal p{
-	padding: 0 .3rem;
+    padding: 0 .3rem;
     margin-bottom: .2rem;
     line-height: .36rem;
     font-size: .24rem;
 }
 .sanlian .client{
-	position: relative;
+    position: relative;
 }
 .sanlian .client .trustee{
-	font-size: .4rem;
-	line-height: .6rem;
-	font-weight: bold;
-	color: #555;
+    font-size: .4rem;
+    line-height: .6rem;
+    font-weight: bold;
+    color: #555;
 }
 .sanlian .client .client_text{
-	width: 2rem;
-	height: 2rem;
-	position: absolute;
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
     right: .3rem;
     top: 0;
 }
 .sanlian .client .the_client{
-	margin-top: 1.5rem;
+    margin-top: 1.5rem;
 }
 .order_code{
     width: 100%;
-    height: 0.8rem;
-    line-height: 0.8rem;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    text-align: center;
 }
 .order_code>p{
     color: #222;
@@ -310,11 +314,10 @@
     font-size: 0.26rem;
 }
 .order_code>input{
-    color: #929292;
-    float: right;
-    padding-right: 0.3rem;
-    background: transparent;
-    border:none;
-    line-height: 0.8rem;
-    font-size: 0.26rem;
+    background: #fff;
+    text-align: center;
+    line-height: 0.9rem;
+    width: 100%;
+    font-size: 0.32rem;
+    color: #ff943e;
 }

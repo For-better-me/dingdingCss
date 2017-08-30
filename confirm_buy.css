@@ -1,3 +1,4 @@
+
 ::-moz-placeholder { color: #929292; }
 ::-webkit-input-placeholder { color:#929292; }
 :-ms-input-placeholder { color:#929292; }
@@ -457,11 +458,10 @@ section {
 }
 .close_agree_wrap{
 	position: fixed;
-    bottom: 0rem;
-    background: #fff;
-    z-index: 999;
-    border-top: #e0e0e0 solid 1px;
-    width: 100%;
+	bottom: 0rem;
+	background: #fff;
+	z-index: 999;
+	width: 100%;
 }
 .close_agree_wrap:after{
 	content: "";
@@ -486,7 +486,7 @@ section {
     display: block;
     width: 5.92rem;
     height: 0.88rem;
-    margin: 0.12rem auto;
+    margin: 0.15rem auto;
     color: #fff;
     font-size: 0.28rem;
     border-radius: 0.08rem;

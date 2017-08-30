@@ -144,6 +144,26 @@
 	background: #fff;
 	color: #444;
 	position: relative;
+	border:none !important;
+}
+.city-wrap-tit:after{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	border-top: 1px solid #e0e0e0;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5) {
+    .city-wrap-tit:after{
+        transform: scaleY(0.7)
+    }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) {
+    .city-wrap-tit:after{
+        transform: scaleY(0.5)
+    }
 }
 .city-wrap-tit .back{
 	position: absolute;

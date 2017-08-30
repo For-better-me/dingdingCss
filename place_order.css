@@ -1,3 +1,4 @@
+
 .flow{
 	background: #fff;
 	padding: .3rem;
@@ -393,7 +394,6 @@
     bottom: 0rem;
     background: #fff;
     z-index: 999;
-    border-top: #e0e0e0 solid 1px;
     width: 100%;
 }
 .close_agree_wrap:after{
@@ -417,13 +417,9 @@
 }
 .xieyi .close_agree {
     display: block;
-    position: fixed;
-    bottom: 0.2rem;
     width: 5.92rem;
     height: 0.88rem;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
+    margin: 0.15rem auto;
     color: #fff;
     font-size: 0.28rem;
     border-radius: 0.08rem;
